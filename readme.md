@@ -1,78 +1,76 @@
-## Real-Time Chatroom Node.js App
+# Real-time Chatroom Node App
 
-#### This repository contains the source code for a real-time chatroom web application built with Node.js, Express.js, and Socket.IO.
+A real-time chatroom web application built with Node.js, Express.js, and Socket.IO.
 
-##### Installation and Usage
+## Table of Contents
 
-###### To run this application locally, follow these steps:
+- [Real-time Chatroom Node App](#real-time-chatroom-node-app)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Future Improvements](#future-improvements)
+  - [Contributing](#contributing)
+  - [Credits](#credits)
 
-<ol>
-<li>
-    Clone this repository
-</li>
-<li>
-    Navigate to the project directory in your terminal
-</li>
-<li>
-    Run npm install to install the project's dependencies
-</li>
+## Introduction
 
-<li>
-    Run npm start to start the server
-</li>
-<li>
-    Open http://localhost:3000 in your web browser to view the application
-</li>
-</ol>
+This project is a simple real-time chatroom application built with Node.js, Express.js, and Socket.IO. It is designed to provide a real-time, responsive, and seamless chat experience for users. The application includes a login system where users can create an account and log in to access the chatroom. The chatroom itself allows users to join multiple chatrooms, send and receive messages in real-time, and view a list of online users.
 
-##### Features
+## Features
 
-<ul>
-<li>
-    Real-time messaging using Socket.IO
-</li>
+- User registration and login system
+- Real-time messaging with Socket.IO
+- Ability to join multiple chatrooms
+- List of online users in each chatroom
+- Responsive design for mobile and desktop
 
-<li>
-    Unique usernames generated for each user
-</li>
+## Installation
 
-<li>
-    Displays user join and leave events
-</li>
+To install and run the application, follow these steps:
 
-<li>
-    Responsive and mobile-friendly UI
-</li>
+1. Clone the repository to your local machine using the following command:
 
-</ul>
+```sh
+git clone https://github.com/ymw0331/real-time-chatroom-node-app.git
+```
 
-##### Future Improvements
+2. Install the dependencies by running the following command in the project root directory:
 
-<p>
-Some possible improvements that could be made to this application in the future include:
-</p>
+```sh
+npm install
+```
 
-<ul>
-<li>
-    User authentication and account creation
-</li>
+3. Start the server by running the following command:
 
-<li>
-    Direct messaging between users
-</li>
+4. Open your web browser and navigate to `http://localhost:8080` to access the application.
 
-<li>
-    Emojis and other multimedia support in messages
-</li>
+## Usage
 
-<li>
-    Ability to create custom chat rooms
-</li>
+Once you have the application running, you can join multiple chatrooms, send and receive messages in real-time, and view a list of online users in each chatroom.
 
-</ul>
+## Future Improvements
 
-##### Credits
+1.  Add the ability to create and join different chat rooms.
+2.  Implement user authentication to restrict access to the chatroom.
+3.  Add support for sending and receiving images and other file types.
+4.  Implement message search functionality.
+5.  Improve the overall UI/UX design of the chatroom.
+6.  Add support for sending emojis and other multimedia elements.
+7.  Implement a way to view the chat history for each room.
 
-<p>
+## Contributing
+
+Contributions to this project are welcome. To contribute, follow these steps:
+
+1. Fork the repository to your own Github account.
+2. Clone the repository to your local machine.
+3. Create a new branch with your changes: `git checkout -b my-feature-branch`.
+4. Make your changes and commit them: `git commit -m "Add some feature"`.
+5. Push your changes to your Github account: `git push -u origin my-feature-branch`.
+6. Create a pull request for your changes.
+
+## Credits
+
 This project was built following the instructions from Andrew Mead's Node.js course on Udemy.
-</p>
